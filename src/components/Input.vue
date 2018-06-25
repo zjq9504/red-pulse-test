@@ -9,7 +9,7 @@
       <input v-model="input2">
       <span class="value-display">Value: {{ input2 }}</span>
     </div>
-    <button @click="onClickSave" class="confirm-button">Save</button>
+    <button @click="onClickSave" class="save-button">Save</button>
   </div>
 </template>
 
@@ -42,7 +42,7 @@ export default {
 .value-display {
   margin: 0 0 0 8px;
 }
-.confirm-button {
+.save-button {
   margin: 10px 0 0 0;
 }
 </style>
